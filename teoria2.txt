@@ -1,8 +1,16 @@
 Escribiremos sobre como solucionar errores al hacer commits, borrar archivos, entre tantas otras cosas.
+Quizas en git log no se noten los cambios al hacer un reset hard, pero en git  reflog, si están TODOS los cambios,
+pese a los reseteos que hayas hecho.
+
+Git checkout y reset (diferencias):
+-git checkout nos ayuda a pasear, mirar y volver.
+-git reset nos permite volver al pasado, pero no al futuro (borra historial y sobreescribe archivos)
 
 
 git reflog (todos los cambios, movimientos, etc)
 
-git reset --SOFT (mantiene lo que está en stagging)
+git reset --soft (mantiene lo que está en stagging)
 
-git reset --HARD (resetea TODO, casi nunca se usa)
+git reset --hard (resetea TODO, casi nunca se usa)
+
+git reset HEAD (elimina todos los archivos que se encuentren en el estado staging)

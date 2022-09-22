@@ -24,11 +24,23 @@ git init (crear el entorno, lo primero de lo primero)
 
 git add (archivo a agregar antes de hacer commit)
 
+git rm --cached archivo.txt (lo elimina del staging)
+
+git rm --force (lo elimina del disco duro, pero podemos recuperarlo con el historial y comandos avanzados)
+
 git add . (agregar todos los archivos del directorio actual)
 
 git status (muestra el estado de los archivos del directorio actual)
 
 git commit " " (entre los parentesis va un mensaje de referencia)
+
+git push (enviamos al repositorio remoto o nube)
+
+git fetch (traer un archivo del repositorio remoto a mi repositorio local)
+
+git merge (lo fusiona con el archivo en mi directorio, a partir de repo local a mi directorio de trabajo)
+
+git pull (mezcla fetch y merge)
 
 git rm --chached "archivo a quitar de add"
 
