@@ -1,0 +1,8 @@
+Escribiremos sobre como solucionar errores al hacer commits, borrar archivos, entre tantas otras cosas.
+
+
+git reflog (todos los cambios, movimientos, etc)
+
+git reset --SOFT (mantiene lo que está en stagging)
+
+git reset --HARD (resetea TODO, casi nunca se usa)

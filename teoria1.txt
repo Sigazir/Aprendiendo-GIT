@@ -1,0 +1,46 @@
+tiene casi todos los mismos comandos de linux, para acceder a un disco duro o partición se usa: cd /C
+al ejecutar git init, se crea una carpeta (.git) que se ejecuta en ram, cuando hacemos git add se pasa 
+a "stagging" (memoria ram) y cuando hacemos commit se mueve a dicha carpeta (por defecto a MASTER).
+
+un archivo sin add == untraked
+un archivo con add == traked (stagging)
+
+hay  un comando conocido como git checkout, que es para traer TODOS, ciertos o 1 cambio del algún archivo que modificó
+un compañero de trabajo (extraido de la rama MASTER)
+
+Aquí se crean "ramas", que es separar en diferentes carpetas (Ej: Fronted, Backend, DB, etc), donde cada grupo hace sus
+cambios y commits en sus respectivas carpetas.
+
+tenemos 3 ramas, master, experimento(development) y bugfixing(hotfix). trabajamos varias varias versiones en la rama master hasta
+la actual, a partir de la versión 3 empecé a usar otra libreria, donde dichos cambios o cambio de libreria empezará
+con la v3 pero, haciendo una copia  de v3 a la rama experimentos y siendo v1.
+
+En la versión actual hay un bug, hacemos una copia a la rama hotfix, lo arreglamos y hacemos una prueba con la versión
+actual (esto se conoce como MERGE). Hay que tener cuidado con los merges, porque pueden ocasionar conflictos o romper
+los archivos afectado globalmente al código.
+
+
+git init (crear el entorno, lo primero de lo primero)
+
+git add (archivo a agregar antes de hacer commit)
+
+git add . (agregar todos los archivos del directorio actual)
+
+git status (muestra el estado de los archivos del directorio actual)
+
+git commit " " (entre los parentesis va un mensaje de referencia)
+
+git rm --chached "archivo a quitar de add"
+
+git log archivo.txt (muestra los cambios o versiones del mismo archivo)
+
+git show (Muestra la última versión del archivo con el anterior)
+
+git diff (aquí se colocan las id del mismo archivo pero diferente commit o version para ver los cambios, el más común
+	  es el original con una version más nueva)
+[ejemplo: git diff cf2c12f4f7b8997dc5ba228776dd8f95d609779b c0d63d17f68fe3f87ddc664ce4cadc4378d0ac30]
+
+git checkout (para cambiar de una rama a otra)
+
+gitk (para ver cambios de forma visual o con una intefaz gráfica)
+
