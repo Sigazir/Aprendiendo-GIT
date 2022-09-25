@@ -36,6 +36,7 @@ git commit " " (entre los parentesis va un mensaje de referencia)
 
 git commit -am (hace add y commit, solo funciona con archivos ya existentes y con add,no con nuevos)
 
+git branch nombre (crear una nueva rama)
 
 git push (enviamos al repositorio remoto o nube)
 
