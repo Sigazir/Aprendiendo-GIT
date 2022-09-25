@@ -34,6 +34,9 @@ git status (muestra el estado de los archivos del directorio actual)
 
 git commit " " (entre los parentesis va un mensaje de referencia)
 
+git commit -am (hace add y commit, solo funciona con archivos ya existentes y con add,no con nuevos)
+
+
 git push (enviamos al repositorio remoto o nube)
 
 git fetch (traer un archivo del repositorio remoto a mi repositorio local)
