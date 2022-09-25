@@ -38,6 +38,8 @@ git commit -am (hace add y commit, solo funciona con archivos ya existentes y co
 
 git branch nombre (crear una nueva rama)
 
+git checkout (para cambiar de una rama a otra)
+
 git push (enviamos al repositorio remoto o nube)
 
 git fetch (traer un archivo del repositorio remoto a mi repositorio local)
@@ -55,8 +57,6 @@ git show (Muestra la última versión del archivo con el anterior)
 git diff (aquí se colocan las id del mismo archivo pero diferente commit o version para ver los cambios, el más común
 	  es el original con una version más nueva)
 [ejemplo: git diff cf2c12f4f7b8997dc5ba228776dd8f95d609779b c0d63d17f68fe3f87ddc664ce4cadc4378d0ac30]
-
-git checkout (para cambiar de una rama a otra)
 
 gitk (para ver cambios de forma visual o con una intefaz gráfica)
 
