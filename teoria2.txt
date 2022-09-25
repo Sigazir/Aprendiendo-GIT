@@ -6,6 +6,11 @@ Git checkout y reset (diferencias):
 -git checkout nos ayuda a pasear, mirar y volver.
 -git reset nos permite volver al pasado, pero no al futuro (borra historial y sobreescribe archivos)
 
+CHECKOUT: Con este comando podemos cambiar de ramas, esto nos permite ver el último commit de cada rama, con sus
+diferentes cambios. Cuando hacemos commit a una rama secundaria, y luego hacemos checkout a master, cuando hagamos
+un git log, no veremos el commit de la rama secundaria y los archivos se cambiaran automáticamente al último commit
+que se hizo en master. SI hacemos checkout sin antes hacer add y commitear estos datos, podemso perder todo nuestro progreso.
+
 
 git reflog (todos los cambios, movimientos, etc)
 
