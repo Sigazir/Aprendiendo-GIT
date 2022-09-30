@@ -40,9 +40,9 @@ git branch nombre (crear una nueva rama)
 
 git checkout (para cambiar de una rama a otra)
 
-git push (enviamos al repositorio remoto o nube)
-
 git fetch (traer un archivo del repositorio remoto a mi repositorio local)
+
+git push (enviamos al repositorio remoto o nube)
 
 git merge (lo fusiona con el archivo en mi directorio, a partir de repo local a mi directorio de trabajo)
 
