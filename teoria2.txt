@@ -19,3 +19,7 @@ git reset --soft (mantiene lo que está en stagging)
 git reset --hard (resetea TODO, casi nunca se usa)
 
 git reset HEAD (elimina todos los archivos que se encuentren en el estado staging)
+
+Para hacer una actualización, debemos tener el head en master, porque si tenemos en otro lado,
+al hacer merge, finalizamos la rama MASTER. MUCHO CUIDADO.
+Recordatorio, un merge es un commit también, por lo cual debemos colocarle un mensaje.
