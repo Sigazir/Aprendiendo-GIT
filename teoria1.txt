@@ -19,8 +19,16 @@ En la versión actual hay un bug, hacemos una copia a la rama hotfix, lo arreglam
 actual (esto se conoce como MERGE). Hay que tener cuidado con los merges, porque pueden ocasionar conflictos o romper
 los archivos afectado globalmente al código.
 
+Podemos crear alias por si un código es demasiado largo, son como abreviaciones que comunmente se encuentran en linux
+
 
 git init (crear el entorno, lo primero de lo primero)
+
+git config -l (muestra las configuracionesde mi repositorio)
+
+git config --global [insertamos que queremos cambiar o modificar] [insertamos los datos] (cambiar globalmente una config)
+
+cd ~ (nos lleva a home sin necesidad de navegar hasta allí)
 
 git add (archivo a agregar antes de hacer commit)
 
@@ -38,6 +46,10 @@ git commit -am (hace add y commit, solo funciona con archivos ya existentes y co
 
 git branch nombre (crear una nueva rama)
 
+git show-branch (nos muestra ramas existentes y sus historias)
+
+git show-branch --all (nos muestra similar pero con más datos)
+
 git checkout (para cambiar de una rama a otra)
 
 git fetch (traer un archivo del repositorio remoto a mi repositorio local)
@@ -51,6 +63,8 @@ git pull (mezcla fetch y merge)
 git rm --chached "archivo a quitar de add"
 
 git log archivo.txt (muestra los cambios o versiones del mismo archivo)
+
+git log --all --graph --decorate -oneline (nos muestra de forma poquito más gráfica los logs, podemos quitar el oneline)
 
 git show (Muestra la última versión del archivo con el anterior)
 

@@ -23,3 +23,35 @@ git reset HEAD (elimina todos los archivos que se encuentren en el estado stagin
 Para hacer una actualización, debemos tener el head en master, porque si tenemos en otro lado,
 al hacer merge, finalizamos la rama MASTER. MUCHO CUIDADO.
 Recordatorio, un merge es un commit también, por lo cual debemos colocarle un mensaje.
+
+___________________________________________________________________________________________________
+git push es para enviar
+git pull es para traer
+
+
+git remote (ver a que remotos estamos conectados)
+
+git remote -v (nos muestra de donde viene nuestro remoto)
+
+git remote set-url origin [va el url nuevo] (nos sirve para cambiar el url que estamos usando)
+
+git remote add origin [codigo http, ssh, etc] (agregar un remoto)
+
+git push origin master (git enviale al origin la rama master)
+
+git push origin --tags (enviar tags al remoto)
+
+___________________________________________________________________________________________________
+
+Comunmente los tags se usan en github y no en el servicio local, ya que ayuda a los de codigo abierto a
+saber en que parte del código tuvieron sus versiones, entre otros datos.
+
+git tag -a v0.1 -m "Primer cambio decente" [aqui ponemos el codigo del log] (sirve para agregar un tag a un cambio del log)
+
+git tag (para ver los tags existentes)
+
+git show-ref --tags (sirve para ver a que log corresponde los tags)
+
+git tag -d [nombre del tag] (elimina el tag)
+
+git push origin :refs/tags/[tag a borrar] (nos ayuda a borrar el tag en el remoto por si queda aún)

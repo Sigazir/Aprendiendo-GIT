@@ -1,0 +1,10 @@
+Para el uso de cifrado y conexión ssh, casi siempre es necesario buscar por internet las lineas de código.
+Esto debido a que hay que hacerlo bien y se hace algo extenso usarlo, pero su seguridad lo vale.
+
+Si tenemos varias computadoras, cada una tiene que tener su llave. Se puede compartir una misma llave, pero
+no es buena idea por temas de seguridad. (Mientras la mueves de una pc a otra, pueden haberla interceptado)
+
+Los pasos para vincularlos con platzi son:
+1) Crear llave en nuestro local
+2) Verificar que funciona
+3) Agregar llave pública en configuraciones de GitHub (página)
