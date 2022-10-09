@@ -69,8 +69,15 @@ git log --all --graph --decorate -oneline (nos muestra de forma poquito más gráf
 git show (Muestra la última versión del archivo con el anterior)
 
 git diff (aquí se colocan las id del mismo archivo pero diferente commit o version para ver los cambios, el más común
-	  es el original con una version más nueva)
+	  es el original con una version más nueva,sirve para ver los cambios más que nada)
 [ejemplo: git diff cf2c12f4f7b8997dc5ba228776dd8f95d609779b c0d63d17f68fe3f87ddc664ce4cadc4378d0ac30]
 
 gitk (para ver cambios de forma visual o con una intefaz gráfica)
 
+________________________________________________________________________________________________
+
+si serás alguien que se integra a un proyecto, y no inicia desde cero, los codigos son:
+te deben agregar al repositorio como collab
+
+git clone [url]
+	
