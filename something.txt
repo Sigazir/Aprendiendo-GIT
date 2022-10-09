@@ -8,6 +8,10 @@ sigakator fué ella
 
 tambien usa ssh
 
+<<<<<<< HEAD
 viendo que pes
 
 otro cambio para este tipo
+=======
+para que cambiamos esto contigo
+>>>>>>> 3569a614d8390008ed596e141136ba07777510f7
