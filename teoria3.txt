@@ -8,3 +8,17 @@ Los pasos para vincularlos con platzi son:
 1) Crear llave en nuestro local
 2) Verificar que funciona
 3) Agregar llave pública en configuraciones de GitHub (página)
+
+______________________________________________________________________________
+
+fork y pull request es una herramienta de github, que nos ayuda a ponernos de acuerdo o colaborar a la hora de realizar
+proyectos en un repositorio.
+
+si trabajaremos en conjunto como colaborador podemos modificar directamente las cosas en algunas ramas, en cambio, 
+si trabajamos en un open source sin ser collab, podemos hacer fork a su repositorio y trabajar independientemente,
+para que, cuando hayamos hecho los cambios que queriamos, poder hacer un pull request mandando nuestra opinión.
+
+si trabajamos como un forker, debemos hacer fork de repositorio, view y darle estrellita, luego hacer un git clone
+desde NUESTRO repositorio forkeado.
+Cosas a tener en cuenta:
+*Tenemos que forkear cada nuevo cambio que hagan en el repositorio original
